@@ -42,6 +42,15 @@ kramdown:
     input: GFM # use Github Flavored Markdown !important
 
 # 评论系统
+
+gitment:
+    enable: true
+    githubID: jiayuanfan
+    repo: jiayuanfan.github.io
+    ClientID: 5592017f70e417ce5205
+    ClientSecret: 464100f3fc429cfa1651175313980b6b55962b74
+    lazy: true
+
 # Disqus（https://disqus.com/）
 # disqus_username: qiubaiying
 
