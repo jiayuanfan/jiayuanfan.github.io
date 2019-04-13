@@ -43,26 +43,26 @@ kramdown:
 
 # 评论系统
 
-gitment:
-    enable: true
-    githubID: jiayuanfan
-    repo: jiayuanfan.github.io
-    ClientID: 5592017f70e417ce5205
-    ClientSecret: 464100f3fc429cfa1651175313980b6b55962b74
-    lazy: true
+# gitment:
+#     enable: true
+#     githubID: jiayuanfan
+#     repo: jiayuanfan.github.io
+#     ClientID: 5592017f70e417ce5205
+#     ClientSecret: 464100f3fc429cfa1651175313980b6b55962b74
+#     lazy: true
 
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username:
 
 # Gitalk
-# gitalk:
-#     enable: true # 是否开启Gitalk评论
-#     clientID: # 生成的clientID
-#     clientSecret: # 生成的clientSecret
-#     repo: jiayuanfan.github.io #仓库名称
-#     owner: jiayuanfan # github用户名
-#     admin: jiayuanfan
-#     distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+gitalk:
+    enable: true # 是否开启Gitalk评论
+    clientID: 5592017f70e417ce5205 # 生成的clientID
+    clientSecret: 464100f3fc429cfa1651175313980b6b55962b74 # 生成的clientSecret
+    repo: jiayuanfan.github.io #仓库名称
+    owner: jiayuanfan # github用户名
+    admin: jiayuanfan
+    distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 # 统计
 
